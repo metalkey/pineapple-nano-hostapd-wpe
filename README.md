@@ -1,6 +1,6 @@
 # Hostapd-wpe on the Pineapple NANO for WPA2-Enterprise Attacks
 ssh root@IP-OF-PINEAPPLE
-cd /tmp
+cd /tmp<br>
 wget https://github.com/metalkey/pineapple-nano-hostapd-wpe/blob/master/hostapd-wpe_2014-06-03.1-1_ar71xx.ipk
 opkg install ./hostapd-wpe_2014-06-03.1-1_ar71xx.ipk
 cd
