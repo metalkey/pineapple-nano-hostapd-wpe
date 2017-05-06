@@ -4,6 +4,7 @@ cd /tmp<br>
 wget https://github.com/metalkey/pineapple-nano-hostapd-wpe/blob/master/hostapd-wpe_2014-06-03.1-1_ar71xx.ipk<br>
 opkg install ./hostapd-wpe_2014-06-03.1-1_ar71xx.ipk<br>
 cd<br>
+wget https://github.com/metalkey/pineapple-nano-hostapd-wpe/blob/master/pineapple-hostapd-wpe.conf<br>
 hostapd-wpe pineapple-hostapd-wpe.conf<br>
 <br>
 # Creds
