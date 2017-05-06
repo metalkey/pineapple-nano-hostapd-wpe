@@ -1,0 +1,4 @@
+ssh root@IP-OF-PINEAPPLE
+cd /tmp
+wget https://github.com/TarlogicSecurity/hostapd-wpe-openwrt/raw/master/packages/ar71xx/generic/hostapd-wpe_2014-06-03.1-1_ar71xx.ipk
+opkg install ./hostapd-wpe_2014-06-03.1-1_ar71xx.ipk
